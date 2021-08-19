@@ -1,9 +1,9 @@
 name: GitHub Actions Demo
 on:
   push:
-      branches: [ spotlight ]
-    pull_request:
-      branches: [ spotlight ]
+    branches: [ spotlight ]
+  pull_request:
+    branches: [ spotlight ]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
